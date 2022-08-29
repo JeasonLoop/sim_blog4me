@@ -6,7 +6,7 @@ import style from './style.module.less'
 
 const MainBody = () => {
     return (
-        <div className={style.main_body}>
+        <div className={style.main_body} >
             <Article />
             <AuthorInfo />
         </div>
