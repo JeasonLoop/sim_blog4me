@@ -9,10 +9,13 @@ import style from './style.module.less'
 // TODO: 整体框架
 const Main = (props: any) => {
     return (
-        <div className={style.main}>
+        <div className={style.main} >
             <BlogHeader />
-            <BlogContent />
-            <BlogFooter />
+            <div className={style.bg_container}>
+                <BlogContent />
+                <BlogFooter />
+            </div>
+
         </div>
     )
 }
