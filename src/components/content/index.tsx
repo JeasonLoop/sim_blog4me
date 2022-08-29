@@ -1,14 +1,18 @@
 // import * as React from 'react';
 import { useState } from 'react';
 import Poem from './poem'
-import Article from './mainbody/article'
+import MainBody from './mainbody/index';
+import bgMain from '@/assets/img/bg_main.png'
 import style from './style.module.less'
 
+// TODO: 诗歌以及博客内容主体
 const BlogContent = () => {
+    // style = {{ backgroundImage: `url(${bgMain})` }
+
     return (
-        <div className={style.content}>
+        <div className={style.content} >
             <Poem />
-            <Article />
+            <MainBody />
         </div>
     )
 

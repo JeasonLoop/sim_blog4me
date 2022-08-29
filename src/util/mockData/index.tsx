@@ -5,7 +5,7 @@ const articleList: ArticleItem =
 
 {
     // 文章封面
-    articleCoverImg: '',
+    articleCoverImg: 'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png',
 
     // 文章标题
     articleTitle: 'test blog',
